@@ -1,5 +1,17 @@
+
+.right{
+   
+}
+.logo{
+    display: inline-block;
+    float:left;
+    height: 70px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
 #navbar {
-    
   background-color: #ccc;
   height: 25px;
 }
@@ -7,7 +19,6 @@
 #main-menu .nav-bar { 
     list-style:none;
     word-spacing: 10px
-        
 }
 #main-menu .nav-bar li { 
     display:inline; padding: 0 -5px; 
@@ -25,26 +36,23 @@ text-shadow: 1px 1px 1px #ccc;
 
 
 #navbar2 {
-    
   background-color: #067cd4;
-  height: 25px;
-  
+  height: 25px;  
   float: top;
+  margin-top: 70px;
+  margin-bottom: 5px;
 }
 
 
 #main-menu2 .nav-bar2 { 
     list-style:none;
-    word-spacing: 2px 
-        
-    
+    word-spacing: 2px; 
+    padding-right: 10px;    
 }
 #main-menu2 .nav-bar2 li { 
     display:inline; padding: -15px 10px; 
     left: 50%;
-    float: right
-        
-        
+    float: right; 
 }
 #main-menu2 .nav-bar2 li a {
 padding-left: 50px; /* Create padding on the left where the icon goes */
@@ -67,12 +75,10 @@ color: #FFFFFF;
 }
 
 .verticalnavbar {
-    width: 20em;
+    /*width: 20em;*/
     color: white;
     background-color: #1cabf4;
-  
     padding: 0.1em 0.5em;
-   
    
     }
 
@@ -94,7 +100,7 @@ color: #FFFFFF;
 background-color: #82b6dc; 
 padding-top: 2px;
 padding:1px; 
-width: 300px; 
+width: 100%; 
 height: 2px; 
 
 color: #FFFFFF;
@@ -108,7 +114,14 @@ color: #FFFFFF;
 
 #micapa{
     vertical-align: top;
-     float: right;  
+     float: left;  
+     width: 70%;
+}
+#menuvertical{
+    vertical-align: top;
+    float:left;
+    width: 20%;
+    margin-right: 5px;
 }
 
 #micapa2{
