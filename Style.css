@@ -1,0 +1,157 @@
+#navbar {
+    
+  background-color: #ccc;
+  height: 25px;
+}
+
+#main-menu .nav-bar { 
+    list-style:none;
+    word-spacing: 10px
+        
+}
+#main-menu .nav-bar li { 
+    display:inline; padding: 0 -5px; 
+    left: 50%;
+    float: right
+}
+
+#main-menu .nav-bar li a {
+padding-left: 25px; /* Create padding on the left where the icon goes */
+padding-top: -5px;
+text-decoration: none;
+color: #333;
+text-shadow: 1px 1px 1px #ccc;
+}
+
+
+#navbar2 {
+    
+  background-color: #067cd4;
+  height: 25px;
+  
+  float: top;
+}
+
+
+#main-menu2 .nav-bar2 { 
+    list-style:none;
+    word-spacing: 2px 
+        
+    
+}
+#main-menu2 .nav-bar2 li { 
+    display:inline; padding: -15px 10px; 
+    left: 50%;
+    float: right
+        
+        
+}
+#main-menu2 .nav-bar2 li a {
+padding-left: 50px; /* Create padding on the left where the icon goes */
+padding-top: -25px;
+text-decoration: none;
+text-shadow: 1px 1px 1px #ccc;
+color: #FFFFFF;
+}
+
+.nav-bar .nav-button-home a { background:url("images/home.gif") no-repeat 7px 1px transparent; }
+.nav-bar .nav-button-services a { background:url("images/ico_cia.gif") no-repeat 7px 3px transparent; }
+.nav-bar .nav-button-products a { background:url("images/ico_usuario.gif") no-repeat 7px 3px transparent; }
+.nav-bar .nav-button-email a { background:url("images/ico_contacto.png") no-repeat 7px -1px transparent; }
+.nav-bar .nav-button-sitemap a { background:url("images/ico_sitemap.png") no-repeat 10px -1px transparent; }
+
+
+
+#navbar3 {    
+    float: left;   
+}
+
+.verticalnavbar {
+    width: 20em;
+    color: white;
+    background-color: #1cabf4;
+  
+    padding: 0.1em 0.5em;
+   
+   
+    }
+
+.verticalnavbar-title {
+    padding-left: 0.75em;
+}
+
+.verticalnavbar-title a {
+    color: white;
+    font-weight: bold;
+}
+
+.verticalnavbar-desc {
+    font-size: 85%;
+}
+
+.verticalnavbarspace
+{
+background-color: #82b6dc; 
+padding-top: 2px;
+padding:1px; 
+width: 300px; 
+height: 2px; 
+
+color: #FFFFFF;
+}
+
+.verticalnavbarspace-final
+{
+    background-color: #5e93ba; 
+}
+
+
+#micapa{
+    vertical-align: top;
+     float: right;  
+}
+
+#micapa2{
+    vertical-align: top;
+     float: left; 
+     position: absolute
+}
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+   border-bottom: #ccc 3px solid;
+
+}
+
+.flex-item {
+ 
+  padding: 5px;
+  width: 300px;
+  height: 175px;
+  margin-top: 15px;
+  
+  line-height: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.0em;
+  text-align: center;
+ 
+  
+  
+}
+
+.flex-item a{
+ 
+  text-decoration: none;
+    color: rgb(0,130,210);
+  
+}
